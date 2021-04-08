@@ -1,3 +1,102 @@
+:root {
+    --vermelho: #e50914; 
+    --preta: #0a0a0a;
+    --cinza_claro: #eeeeee; 
+    --cinza_escuro: #aaa;
+}
+
+/*Resetando as configurações iniciais da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Os elementos dentro de uma caixa não irão ultrapassar o limite da caixa */
+}
+
+/*Elementos base*/
 body {
-    background-color: #0a0a0a;
+    background-color: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Trabalhando com flex-box*/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Bebas","Arial Black";
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none; /*Remover sublinhado*/
+    margin-right: 15px; /*Distanciamento de margem de cada link*/
+    justify-content: flex-end;
+    color: var(--cinza_escuro);
+    font-family: 'Trebuchet MS', Arial;
+}
+
+/*Quando o mouse estiver sobre o elemento*/
+header nav a:hover { 
+    color: var(--cinza_claro); 
+}
+
+/*-------------------------------------------*/
+
+.filme-principal { 
+    font-family:'Trebuchet MS', Arial;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), url("/img/hp1-background.jpg");
+    background-size: cover; /*Cobre a área da caixa*/
+    height: 400px; /*Tamanho da caixa*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.filme-principal .descricao {
+    font-size: 15px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+.filme-principal .titulo {
+    font-size: 45px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 40%;
+}
+
+.botoes {
+    display: flex;
+    width: 40%;
+    justify-content:space-evenly; 
+}
+
+.botao {
+    background-color: var(--preta);
+    color: var(--cinza_claro);
+    opacity: 0.8;
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.botao:hover {
+    background-color: var(--cinza_claro);
+    color: var(--preta)
+}
+
+.botao i {
+    margin-right: 8px;
 }
