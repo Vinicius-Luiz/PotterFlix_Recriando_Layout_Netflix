@@ -1,0 +1,139 @@
+:root{
+    --vermelho: #e50914; 
+    --preta: #0a0a0a;
+    --preto_claro: #151515;
+    --cinza_claro: #eeeeee; 
+    --cinza_escuro: #aaa;
+}
+
+/*Resetando as configurações iniciais da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body {
+    background-color: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*-------------------------------------------*/
+/*Cabeçalho*/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Bebas","Arial Black";
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none; /*Remover sublinhado*/
+    margin-right: 15px; /*Distanciamento de margem de cada link*/
+    justify-content: flex-end;
+    color: var(--cinza_escuro);
+    font-family: 'Trebuchet MS', Arial;
+}
+
+/*Quando o mouse estiver sobre o elemento*/
+header nav a:hover { 
+    color: var(--cinza_claro); 
+}
+
+/*-------------------------------------------*/
+/*Titulo*/
+
+section .playlist{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    background-color: var(--preto_claro);
+    width: 100%;
+    height: 240px;
+
+    font-family: 'Trebuchet MS', Arial;
+}
+
+section .playlist img {
+    height: 80%;
+    padding: 0 15px;
+    border-radius: 50%;
+}
+
+section .playlist .textos{
+    height: 50%;
+    width: 100%;
+}
+
+section .playlist .textos h3{
+    color: var(--cinza_claro);
+    padding-bottom: 10px;
+    font-size: 32px ;
+}
+
+section .playlist .textos p{
+    color: var(--cinza_escuro);
+    font-size: 16px ;
+}
+
+/*-------------------------------------------*/
+/*Main*/
+
+main .playlist-interface {
+    font-family: 'Trebuchet MS', arial;
+    font-size: 12px;
+    padding: 10px;
+    background-color: var(--preto_claro);
+    color: var(--cinza_escuro);
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .songs {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--cinza_claro);
+    ;
+}
+
+.lista1 {
+    list-style-type: none;
+    background-color: var(--preta);
+    border-top: 1px solid var(--cinza_escuro);
+    padding: 10px;
+    width: 334px;
+    transition: .3s ease-out;
+}
+
+.lista1:hover {
+    background-color: var(--cinza_claro);
+    color: var(--preta)
+
+}
+
+.lista2 {
+    list-style-type: none;
+    border-top: 1px solid var(--cinza_escuro);
+    padding: 10px;
+    width: 334px;
+    transition: .3s ease-out;
+}
+
+.lista2:hover {
+    background-color: var(--cinza_claro);
+    color: var(--preta)
+}

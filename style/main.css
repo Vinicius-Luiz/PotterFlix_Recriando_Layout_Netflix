@@ -3,6 +3,23 @@
     --preta: #0a0a0a;
     --cinza_claro: #eeeeee; 
     --cinza_escuro: #aaa;
+
+    --hp1-background: url("/img/hp1-background.jpg");
+    --hp1-poster: url("/img/hp1-poster1.jpg");
+    --hp2-background: url("/img/hp2-background.jpg");
+    --hp2-poster: url("/img/hp2-poster1.jpg");
+    --hp3-background: url("/img/hp3-background.jpg");
+    --hp3-poster: url("/img/hp3-poster1.jpg");
+    --hp4-background: url("/img/hp4-background.jpg");
+    --hp4-poster: url("/img/hp4-poster1.jpg");
+    --hp5-background: url("/img/hp5-background.jpg");
+    --hp5-poster: url("/img/hp5-poster1.jpg");
+    --hp6-background: url("/img/hp6-background.jpg");
+    --hp6-poster: url("/img/hp6-poster1.jpg");
+    --hp7-background: url("/img/hp7-background.jpg");
+    --hp7-poster: url("/img/hp7-poster1.jpg");
+    --hp8-background: url("/img/hp8-background.jpg");
+    --hp9-poster: url("/img/hp8-poster1.jpg");
 }
 
 /*Resetando as configurações iniciais da página*/
@@ -18,8 +35,8 @@ body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/*Trabalhando com flex-box*/
+/*-------------------------------------------*/
+/*Cabeçalho*/
 header .container {
     display: flex;
     justify-content: space-between;
@@ -48,10 +65,11 @@ header nav a:hover {
 }
 
 /*-------------------------------------------*/
+/*Conteúdo principal*/
 
 .filme-principal { 
     font-family:'Trebuchet MS', Arial;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), url("/img/hp1-background.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp1-background);
     background-size: cover; /*Cobre a área da caixa*/
     height: 400px; /*Tamanho da caixa*/
 
