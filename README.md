@@ -74,9 +74,25 @@
 
 -
 
-### Outro
+### Python
 
--
+> ##### Ajuste de semântica
+>
+> Foi utilizado Python para facilitar na escita da semântica do HTML, demonstração nessa amostra:
+>
+> _titulo.txt_
+>
+> `Prólogo
+> Mundo Maravilhoso do Harry
+> A Chegada de Harry Bebê
+> Visita ao Zoológico e Cartas de Hogwarts`
+>
+> _tituloHTML.txt_ 
+>
+> `<li class = "lista1" >Prólogo</li>
+> <li class = "lista2" >Mundo Maravilhoso do Harry</li>
+> <li class = "lista1" >A Chegada de Harry Bebê</li>
+> <li class = "lista2" >Visita ao Zoológico e Cartas de Hogwarts</li>`
 
 
 
