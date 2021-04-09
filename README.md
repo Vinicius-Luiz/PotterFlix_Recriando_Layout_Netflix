@@ -1,6 +1,6 @@
-> Autor: Vinícius Luiz da Silva França
-> Email: vlsf2@cin.ufpe.br
-> Data: 2021-04-09
+> Autor: Vinícius Luiz da Silva França  
+> Email: vlsf2@cin.ufpe.br  
+> Data: 2021-04-09  
 >
 > Copyright(c) 2021 Vinícius Luiz da Silva França
 
@@ -93,6 +93,3 @@
 > `<li class = "lista2" >Mundo Maravilhoso do Harry</li>`
 > `<li class = "lista1" >A Chegada de Harry Bebê</li>`
 > `<li class = "lista2" >Visita ao Zoológico e Cartas de Hogwarts</li>`
-
-
-
