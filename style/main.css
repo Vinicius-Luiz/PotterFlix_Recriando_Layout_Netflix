@@ -41,7 +41,6 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 header .logo {
@@ -79,18 +78,20 @@ header nav a:hover {
     justify-content: center;
 }
 
+.filme-principal .titulo {
+    font-size: 45px;
+    margin-bottom: 1%;
+    width: 40%;
+}
+
 .filme-principal .descricao {
     font-size: 15px;
-    margin-left: 1%;
     margin-bottom: 2%;
     width: 40%;
 }
 
-.filme-principal .titulo {
-    font-size: 45px;
+.container {
     margin-left: 1%;
-    margin-bottom: 1%;
-    width: 40%;
 }
 
 .botoes {
@@ -103,9 +104,12 @@ header nav a:hover {
     background-color: var(--preta);
     color: var(--cinza_claro);
     opacity: 0.8;
+
+    margin-right: 10px;
     border: 1px solid white;
     height: 40px;
     width: 200px;
+
     cursor: pointer;
     transition: .3s ease-out;
 }
@@ -117,4 +121,17 @@ header nav a:hover {
 
 .botao i {
     margin-right: 8px;
+}
+
+/*-------------------------------------------*/
+/*Carrosel imagens*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
 }

@@ -19,11 +19,14 @@
 ### HTML5
 
 - `<head>` É a cabeça do código, as configurações que cuidam da coordenação do projeto
-
 - Todo elemento que aparece na tela, pensamos como uma espécie de contêineres, caixas, ou seja, `<div>`
-
 - `<nav>`  tag semântica utilizada pra representar menus de navegação 
 - `<main>` tag semântica utilizada para representar o conteúdo principal
+- **Wrapper = Envelopar**
+  - Ela é uma div que guarda vários outros elementos dentro
+  - Facilita no processo de formatação do CSS
+  - `.container` Acessa todos as classes containers 
+  - `.filme-principal .container` Acessa apenas o container da classe *filme-principal*
 
 ### CSS3
 
@@ -68,11 +71,40 @@
    > - `cursor: pointer;`  faz com que seu cursor reconheça um botão e altere sua forma.
    > - `transition: .3s ease-out;`  transação suave após passar mouse sobre o botão
 
+   > ##### Carousel
+   >
+   > `  <link rel="stylesheet" href="owl/owl.carousel.min.css">`  
+   >
+   > `<link rel="stylesheet" href="owl/owl.theme.default.min.css">`
+
+   > ### Responsividade
+   >
+   > *responsive.css*
+   >
+   > Trabalhar com media queries
+   >
+   > `@media screen and (max-width: Npx){}`
+
    
 
 ### JavaScript 
 
--
+- É recomendado inserir o `<script> </script>` no fim da página para evitar erros
+
+-     <script>src="js/owl/jquery.min.js"</script>
+      <script>src="js/owl/owl.carousel.min.js"</script>
+
+### jQuery
+
+> **Para a pasta js/owl**
+> OwlCarousel2-2.3.4 > docs > assets > vendors > jquery.min
+> OwlCarousel2-2.3.4 > docs > assets > owlcarousel > owl.carousel.min
+
+> **Para a pasta style/owl**
+> OwlCarousel2-2.3.4 > dist > assets > owl.carousel.min
+> OwlCarousel2-2.3.4 > dist > assets > owl.theme.default.min
+>
+> https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 
 ### Python
 

@@ -26,6 +26,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1%;
 
 }
 
@@ -94,7 +95,7 @@ section .playlist .textos p{
 main .playlist-interface {
     font-family: 'Trebuchet MS', arial;
     font-size: 12px;
-    padding: 10px;
+    padding: 7px;
     background-color: var(--preto_claro);
     color: var(--cinza_escuro);
     display: flex;
