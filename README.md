@@ -96,13 +96,13 @@
 
 ### jQuery
 
-> **Para a pasta js/owl**
-> OwlCarousel2-2.3.4 > docs > assets > vendors > jquery.min
-> OwlCarousel2-2.3.4 > docs > assets > owlcarousel > owl.carousel.min
+> #### Para a pasta js/owl  
+> ##### OwlCarousel2-2.3.4 > docs > assets > vendors > jquery.min  
+> ##### OwlCarousel2-2.3.4 > docs > assets > owlcarousel > owl.carousel.min
 
-> **Para a pasta style/owl**
-> OwlCarousel2-2.3.4 > dist > assets > owl.carousel.min
-> OwlCarousel2-2.3.4 > dist > assets > owl.theme.default.min
+> #### Para a pasta style/owl  
+> ##### OwlCarousel2-2.3.4 > dist > assets > owl.carousel.min  
+> ##### OwlCarousel2-2.3.4 > dist > assets > owl.theme.default.min
 >
 > https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
 
@@ -115,13 +115,13 @@
 > _titulo.txt_
 >
 > `Prólogo
-> Mundo Maravilhoso do Harry
-> A Chegada de Harry Bebê
-> Visita ao Zoológico e Cartas de Hogwarts`
+> Mundo Maravilhoso do Harry  
+> A Chegada de Harry Bebê  
+> Visita ao Zoológico e Cartas de Hogwarts`  
 >
 > _tituloHTML.txt_ 
 >
-> `<li class = "lista1" >Prólogo</li>`
-> `<li class = "lista2" >Mundo Maravilhoso do Harry</li>`
-> `<li class = "lista1" >A Chegada de Harry Bebê</li>`
+> `<li class = "lista1" >Prólogo</li>`  
+> `<li class = "lista2" >Mundo Maravilhoso do Harry</li>`  
+> `<li class = "lista1" >A Chegada de Harry Bebê</li>`  
 > `<li class = "lista2" >Visita ao Zoológico e Cartas de Hogwarts</li>`
