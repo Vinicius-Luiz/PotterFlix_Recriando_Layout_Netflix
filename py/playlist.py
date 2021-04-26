@@ -32,6 +32,18 @@ def duracao ():
         l.append(titulo.replace("\n",""))
     return l
 
+def escreverTabela():
+    arq = open("tabelaHTML.txt","w")
+    arq.write('<table>\n')
+    arq.write('<tr>\n<th>Título</th>\n<th>Artista</th>\n<th>Álbum</th>\n<th>Duração</th>\n</tr>\n')
+    for i in range(len(titulos)):
+        arq.write('<tr>\n')
+        arq.write(f'<td> {titulos[i]} </td>\n')
+        arq.write(f'<td> {artistas[i]} </td>\n')
+        arq.write(f'<td> {albuns[i]} </td>\n')
+        arq.write(f'<td> {duracao[i]} </td>\n')
+        arq.write('</tr>\n')
+    arq.write('</table>\n')
 
 def escreverTitulo():
     arq = open("tituloHTML.txt", "w")
@@ -98,8 +110,9 @@ titulos = titulo()
 artistas = artista()
 albuns = album()
 duracao = duracao()
-escreverTitulo()
+escreverTabela()
+'''escreverTitulo()
 escreverArtista()
 escreverAlbum()
-escreverDuracao()
+escreverDuracao()'''
 print('CONCLUÍDO!!!')

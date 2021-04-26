@@ -135,3 +135,12 @@ header nav a:hover {
 .carrosel-filmes {
     margin-top: 10px;
 }
+
+.carrosel-filmes button{
+    border: 0;
+    cursor: pointer;
+}
+
+.carrosel-filmes button:hover {
+    opacity: 30%;
+}
