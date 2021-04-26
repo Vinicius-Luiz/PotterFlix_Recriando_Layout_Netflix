@@ -18,7 +18,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
 function alterarFilmePrincipal(filme){
-    alert('Dificuldade de alterar conteúdo do filme principal (26/04/21)');
+    alert('Dificuldade para alterar conteúdo do filme principal (26/04/21)');
 }

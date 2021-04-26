@@ -1,0 +1,145 @@
+:root {
+    --vermelho: #e50914; 
+    --preta: #0a0a0a;
+    --cinza_claro: #eeeeee; 
+    --cinza_escuro: #aaa;
+
+    --hp1-background: url("img/hp1-background.jpg");
+    --hp1-poster: url("img/hp1-poster1.jpg");
+    --hp2-background: url("img/hp2-background.jpg");
+    --hp2-poster: url("img/hp2-poster1.jpg");
+    --hp3-background: url("img/hp3-background.jpg");
+    --hp3-poster: url("img/hp3-poster1.jpg");
+    --hp4-background: url("img/hp4-background.jpg");
+    --hp4-poster: url("img/hp4-poster1.jpg");
+    --hp5-background: url("img/hp5-background.jpg");
+    --hp5-poster: url("img/hp5-poster1.jpg");
+    --hp6-background: url("img/hp6-background.jpg");
+    --hp6-poster: url("img/hp6-poster1.jpg");
+    --hp7-background: url("img/hp7-background.jpg");
+    --hp7-poster: url("img/hp7-poster1.jpg");
+    --hp8-background: url("img/hp8-background.jpg");
+    --hp9-poster: url("img/hp8-poster1.jpg");
+}
+
+/*Resetando as configurações iniciais da página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Os elementos dentro de uma caixa não irão ultrapassar o limite da caixa */
+}
+
+/*Elementos base*/
+body {
+    background-color: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*-------------------------------------------*/
+/*Cabeçalho*/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: "Bebas","Arial Black";
+    font-size: 40px;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none; /*Remover sublinhado*/
+    color: var(--cinza_escuro);
+    font-family: 'Trebuchet MS', Arial;font-family: 'Trebuchet MS', Arial;
+}
+
+/*Quando o mouse estiver sobre o elemento*/
+header nav a:hover { 
+    color: var(--cinza_claro); 
+}
+
+/*-------------------------------------------*/
+/*Conteúdo principal*/
+
+.filme-principal { 
+    font-family:'Trebuchet MS', Arial;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp1-background);
+    background-size: cover; /*Cobre a área da caixa*/
+    height: 400px; /*Tamanho da caixa*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.filme-principal .titulo {
+    font-size: 45px;
+    margin-bottom: 1%;
+    width: 40%;
+}
+
+.filme-principal .descricao {
+    font-size: 15px;
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+.container {
+    margin-left: 1%;
+}
+
+.botoes {
+    display: flex;
+    width: 40%;
+    justify-content:space-evenly; 
+}
+
+.botao {
+    background-color: var(--preta);
+    color: var(--cinza_claro);
+    opacity: 0.8;
+
+    margin-right: 10px;
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.botao:hover {
+    background-color: var(--cinza_claro);
+    color: var(--preta)
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+/*-------------------------------------------*/
+/*Carrosel imagens*/
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.carrosel-filmes button{
+    border: 0;
+    cursor: pointer;
+}
+
+.carrosel-filmes button:hover {
+    opacity: 30%;
+}
