@@ -3,7 +3,6 @@
     --preta: #0a0a0a;
     --cinza_claro: #eeeeee; 
     --cinza_escuro: #aaa;
-
     --hp1-background: url("img/hp1-background.jpg");
     --hp1-poster: url("img/hp1-poster1.jpg");
     --hp2-background: url("img/hp2-background.jpg");
@@ -143,3 +142,4 @@ header nav a:hover {
 .carrosel-filmes button:hover {
     opacity: 30%;
 }
+
