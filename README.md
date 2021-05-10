@@ -6,6 +6,14 @@
 
 > Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
 
+visualização em: https://cin.ufpe.br/~vlsf2/portfolio/Recriando_Interface_Netflix/
+
+foi desenvolvido essa página Potterflix com o intuito de aprimorar minhas habilidades no HTML5; CSS3 e JavaScript
+
+Foi adicionado uma página de **Trilhas Sonoras** de todos os filmes
+
+Bootcamp HTML Developer | Digital Innovation One
+
 ## Observações de Implementação
 
 ### EMMET e Atalhos
@@ -92,7 +100,7 @@
 - É recomendado inserir o `<script> </script>` no fim da página para evitar erros
 
 -     <script>src="js/owl/jquery.min.js"</script>
-      <script>src="js/owl/owl.carousel.min.js"</script>
+        <script>src="js/owl/owl.carousel.min.js"</script>
 
 ### jQuery
 
