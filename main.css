@@ -66,8 +66,6 @@ header nav a:hover {
 
 .filme-principal { 
     font-family:'Trebuchet MS', Arial;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp1-background);
-    background-size: cover; /*Cobre a área da caixa*/
     height: 400px; /*Tamanho da caixa*/
 
     display: flex;
@@ -83,10 +81,40 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 2%;
     width: 40%;
 }
+
+.hp1{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp1-background);
+}
+.hp2{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp2-background);
+}
+.hp3{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp3-background);
+}
+.hp4{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp4-background);
+}
+.hp5{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp5-background);
+}
+.hp6{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp6-background);
+}
+.hp7{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp7-background);
+}
+.hp8{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0.50)100%), var(--hp8-background);
+}
+.hp1, .hp2, .hp3, .hp4, .hp5, .hp6, .hp7, .hp8{
+    background-size: cover;
+    background-position-y: 25%;
+}
+
 
 .container {
     margin-left: 1%;
